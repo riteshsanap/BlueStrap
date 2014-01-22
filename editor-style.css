@@ -1,0 +1,31 @@
+/* 
+Custom TinyMCE Editor File
+Author: Ritesh Sanap
+Author URI: http://www.best2know.info/
+Theme URI:  http://wpden.net/bluestrap-wordpress-theme/
+ver: 1.0
+*/
+/* Adding Custom Font */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic|Bitter:400,700);
+
+body#tinymce.wp-editor {
+line-height: 1.5;
+font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+body#tinymce.wp-editor a {
+	color: #859ce6;
+	text-decoration:none;
+}
+body#tinymce.wp-editor a:hover {color: #2445ae;}
+
+body#tinymce.wp-editor h1,
+body#tinymce.wp-editor h2,
+body#tinymce.wp-editor h3,
+body#tinymce.wp-editor h4,
+body#tinymce.wp-editor h5,
+body#tinymce.wp-editor h6 {
+	clear: both;
+	font-family: Bitter, Georgia, serif;
+	line-height: 1.3;
+}

@@ -1,0 +1,24 @@
+***BlueStrap Theme Changelog***
+
+22-1-2013 - version 1.1.1
+* theme-options.php - Added Thumbnail Disable Option
+* single.php - PHP if for Featured Thumbnails (line 31 - 40)
+* loop.php - PHP if for Featured Thumbnails (line 26 -35)
+* single.php - Fixed function_exists('related_posts') (line 46)
+* page.php - Add Comments on Pages (line 25)
+* customizer.php - Added Customizer to change header colors for the Theme
+
+3-1-2014 - version 1.1
+* functions.php - Removed cdn_bs_links() function  (line 237 - 244)
+* functions.php - Modified wpden_add_jquery() function (line 239 - 247)
+* functions.php - Change wp_register_script() to wp_enqueue_script() (line 246- 248)
+* functions.php - Removed remove_action() (line 538 - 551)
+* functions.php - Modified nav_fallback() (line 231 - 235)
+* footer.php 	- Modified Footer Credits (line 22 - 23)
+* theme-options.php - Removed CDN Option (line 110 - 135)
+* theme-options.php - Removed RSS Feed Option (line 97 - 109)
+* header.php 	- Removed RSS Feed output (line 10 -13)
+* style.css 	- Added li.current_page_item a Style
+
+1-1-2014 - Version 1.0
+* First Version Release
