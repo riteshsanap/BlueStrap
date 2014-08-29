@@ -233,10 +233,10 @@ span.screen-reader-text{display: block;}
 	float: left; 
 	margin:20px 0;
 }
-#primary article h1.post-title{
+#primary article .post-title{
 	margin: 0;
 }
-#primary article h1.post-title a{
+#primary article .post-title a{
 	color: #141412;
 }
 #primary article.post{
