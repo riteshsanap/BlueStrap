@@ -7,12 +7,12 @@
 	} else post_class('panel panel-default panel-body'); ?>>
 	
 		<!-- post title -->
-		<h1 class="post-title">
+		<h2 class="post-title">
 			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 			<?php if(is_sticky()) {
 				echo('<div class="label label-primary pull-right">Featured</div>');
 			} ?>
-		</h1>
+		</h2>
 		<!-- /post title -->
 		<div class="post-meta">
 		<!-- post details -->
