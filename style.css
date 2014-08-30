@@ -234,6 +234,7 @@ span.screen-reader-text{display: block;}
 	margin:20px 0;
 }
 #primary article .post-title{
+	font-size: 33px;
 	margin: 0;
 }
 #primary article .post-title a{
